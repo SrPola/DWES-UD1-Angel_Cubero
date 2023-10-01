@@ -42,6 +42,7 @@ https://www.eclipse.org/downloads/packages/release/2019-06/r/eclipse-ide-enterpr
 2. Lo ejecutamos y durante la instalación elegimos la opción "Enterprise EDI for java web proyects". Una vez instalado nos aparecerá en el sistema de la siguiente manera:
 
 ![](./recursos/imagenes/14.png)
+
 3. Iniciamos el programa, creamos un nuevo proyecto web, elegimo el directorio de trabajo e indicamos que queremos usar el servidor web apache Tomcat y que lo instala automáticamente:
 
 ![](./recursos/imagenes/15.png)
@@ -52,10 +53,12 @@ https://www.eclipse.org/downloads/packages/release/2019-06/r/eclipse-ide-enterpr
 4. Creamos los ficheros index.jsp y dobleNServlet.java en las rutas src/main/webapp y src/main/java respectivamente. Cada fichero tiene que contener lo siguiente:
 
 ![](./recursos/imagenes/19.png)
+
 ![](./recursos/imagenes/20.png)
 ![](./recursos/imagenes/21.png)
 
 5. Ejecutamos el servidor usando Tomcat y probamos el funcionamiento el la ventana de navegador que se ha abierto autáticamente ejecutar el proyecto:
+
 ![](./recursos/imagenes/22.png)
 ![](./recursos/imagenes/23.png)
 
