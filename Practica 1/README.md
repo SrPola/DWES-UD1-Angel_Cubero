@@ -13,14 +13,17 @@ Dado a que la instalación de virtualbox y su uso basico para crear y configurar
 1. Instalamos el servidor y el cliente (para configuración) de MySQL con el siguiente comando:
 ![](./recursos/imagenes/2.png)
 
-3. Instalamos el paquete phpmyadmin, php y los complementos de php para que phpmyadmin funcione correctamente con el siguiemte comando:
+3. Instalamos el paquete phpmyadmin, php y los complementos de php para que phpmyadmin funcione correctamente con el siguiemte comando:...
+...
 ![](./recursos/imagenes/3.png)
-![](./recursos/imagenes/4.png)
+![](./recursos/imagenes/4.png)...
+...
 Ahora indicamos que queremos que el servidor web a instalar para el funcionamiento de phpmyadmin sea apache2, indicamos que queremos hacer la configuración de la base de datos en el fichero dbconfig-common y establecemos las contraseñas que nos solicita:
 ![](./recursos/imagenes/5.png)
 ![](./recursos/imagenes/6.png)
 ![](./recursos/imagenes/7.png)
-![](./recursos/imagenes/8.png)
+![](./recursos/imagenes/8.png)...
+...
 En caso de que de error tenemos que configurar una contraseña segura para el usuario root en MySQL. Esto podemos hacerlo desde la terminal ejecutando lo siguiente (donde 'password' se sustituye por la contraseña que queramos):
 ![](./recursos/imagenes/9.png)
 
@@ -36,15 +39,18 @@ Intentamos reinstalar phpmyadmin, ejecutamos el siguiente comando y reiniciamos 
 1. Descargamos el instalador de eclipse en la sigiuente página:
 https://www.eclipse.org/downloads/packages/release/2019-06/r/eclipse-ide-enterprise-java-developers 
 
-2. Lo ejecutamos y durante la instalación elegimos la opción "Enterprise EDI for java web proyects". Una vez instalado nos aparecerá en el sistema de la siguiente manera:
+2. Lo ejecutamos y durante la instalación elegimos la opción "Enterprise EDI for java web proyects". Una vez instalado nos aparecerá en el sistema de la siguiente manera:...
+...
 ![](./recursos/imagenes/14.png)
-3. Iniciamos el programa, creamos un nuevo proyecto web, elegimo el directorio de trabajo e indicamos que queremos usar el servidor web apache Tomcat y que lo instala automáticamente:
+3. Iniciamos el programa, creamos un nuevo proyecto web, elegimo el directorio de trabajo e indicamos que queremos usar el servidor web apache Tomcat y que lo instala automáticamente:...
+...
 ![](./recursos/imagenes/15.png)
 ![](./recursos/imagenes/16.png)
 ![](./recursos/imagenes/17.png)
 ![](./recursos/imagenes/18.png)
 
-4. Creamos los ficheros index.jsp y dobleNServlet.java en las rutas src/main/webapp y src/main/java respectivamente. Cada fichero tiene que contener lo siguiente:
+4. Creamos los ficheros index.jsp y dobleNServlet.java en las rutas src/main/webapp y src/main/java respectivamente. Cada fichero tiene que contener lo siguiente:...
+...
 ![](./recursos/imagenes/19.png)
 ![](./recursos/imagenes/20.png)
 ![](./recursos/imagenes/21.png)
